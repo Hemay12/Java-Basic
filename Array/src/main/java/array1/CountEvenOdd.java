@@ -17,7 +17,7 @@ public class CountEvenOdd {
 			System.out.println("Enter the "+i);
 			a[i] = sc.nextInt();
 			
-			if(i%2==0) {
+			if(a[i]%2==0) {
 				ecount = ecount + 1;
 				//System.out.println("hua");
 			}
