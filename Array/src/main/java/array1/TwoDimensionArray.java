@@ -25,7 +25,5 @@ public class TwoDimensionArray {
 			System.out.println();
 		}
 		
-
 	}
-
 }
