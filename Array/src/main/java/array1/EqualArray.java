@@ -1,5 +1,6 @@
 package array1;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class EqualArray {
@@ -26,23 +27,33 @@ public class EqualArray {
 		}
 		
 		if (arr.length == arr2.length) {
+			boolean areEqual = true;
 			for(int k =0;k<arr.length;k++) {
-				boolean areEqual = true;
 				if(arr[k] != arr2[k]) {
 					areEqual = false;
 					break;
-				}
-				if(areEqual) {
-					System.out.println("Array equal");
-				}
-				else {
-					System.out.println("Array not equal");
-				}
+				}	
+			}
+			if(areEqual) {
+				System.out.println("Array equal");
+			}
+			else {
+				System.out.println("Array not equal");
 			}
 		}
 		else {
 			System.out.println("Array not equal");
 		}
+		
+		boolean result = Arrays.equals(arr, arr2);
+		if (result == true) { 
+            // Print the result 
+            System.out.println("Two arrays are equal"); 
+        } 
+        else { 
+            // Print the result 
+            System.out.println("Two arrays are not equal"); 
+        } 
 
 	}
 
