@@ -18,7 +18,8 @@ class Employee {
         this.Emp_id = id;
     }
 
-    void getdetails() {
+
+	void getdetails() {
         System.out.println("Name of the employee: " + name);
         System.out.println("ID of the employee: " + Emp_id);
     }
