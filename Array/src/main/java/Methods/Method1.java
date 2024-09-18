@@ -14,8 +14,7 @@ public class Method1 {
 		
 		cn.GetCandidateDetails();
 		cn.DisplayCandidateDetails();
-		
-		//hello there
+
 	}
 }
 
