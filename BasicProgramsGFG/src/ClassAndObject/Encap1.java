@@ -18,8 +18,7 @@ public class Encap1 {
 
 	public static void main(String[] args) {
 		Area a1 = new Area(12,4);
-		a1.getArea();
-		
+		a1.getArea();	
 	}
 
 }

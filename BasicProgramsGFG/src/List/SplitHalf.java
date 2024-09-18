@@ -1,12 +1,10 @@
 package List;
 
 import java.util.ArrayList;
-import java.util.LinkedHashSet;
 import java.util.List;
 import java.util.Scanner;
-import java.util.Set;
 
-public class Duplicates {
+public class SplitHalf {
 
 	public static void main(String[] args) {
 		List<Integer> list = new ArrayList<Integer>();
@@ -18,12 +16,16 @@ public class Duplicates {
 			list.add(sc.nextInt());
 		}
 		
-		Set set = new LinkedHashSet<>();
-		set.addAll(list);
-		list.clear();
-		list.addAll(set);
-		System.out.println(list);
+		int middle;
 		
+		if(list.size()%2 != 0) {
+			middle = list.size()/2 +1;
+		}
+		else {
+			middle = list.size()/2;
+		}
+		
+		System.out.println(middle);
 	}
 
 }

@@ -23,6 +23,7 @@ public class MinMaxList {
 		System.out.println("Max is "+ maxi);
 		int mini = 	min();
 		System.out.println("Max is "+ mini);
+		
 			
 	}
 	

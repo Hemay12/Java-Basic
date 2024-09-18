@@ -9,6 +9,7 @@ public class RemoveNull {
 	public static void main(String[] args) {
 		List<Integer> list = new ArrayList<Integer>();
 		List<Integer> list1 = new ArrayList<Integer>();
+		list.add(null);
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the number of elements in the array");
 		int a = sc.nextInt();

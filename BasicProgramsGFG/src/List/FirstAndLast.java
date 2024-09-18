@@ -1,12 +1,13 @@
 package List;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Scanner;
 
 public class FirstAndLast {
 
 	public static void main(String[] args) {
-		ArrayList<Integer> list = new ArrayList<Integer>();
+		List<Integer> list = new ArrayList<Integer>();
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter the number of elements in the array");
 		int a = sc.nextInt();

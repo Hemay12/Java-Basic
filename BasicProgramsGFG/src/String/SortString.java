@@ -19,7 +19,6 @@ public class SortString {
 	public static String sortstring(String text) {
 		char tempArr [] = text.toCharArray();
 		Arrays.sort(tempArr);
-		//System.out.println(tempArr.toString());
 		return new String(tempArr);
 	}
 

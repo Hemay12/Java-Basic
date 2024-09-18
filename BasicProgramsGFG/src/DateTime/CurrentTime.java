@@ -24,5 +24,4 @@ public class CurrentTime {
 		 System.out.println("England Format: "+ de.format(d1));	
 
 	}
-
 }

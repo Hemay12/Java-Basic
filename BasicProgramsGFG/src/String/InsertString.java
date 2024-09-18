@@ -21,7 +21,6 @@ public class InsertString {
 	
 		for(int i =0; i<index+1; i++) {
 			System.out.print(ch[i]);
-			
 		}
 		System.out.print(" "+added+" ");
 		
