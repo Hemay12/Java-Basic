@@ -24,6 +24,8 @@ public class List1 {
 		list2.add(6);
 		System.out.println("Stack "+ list2.toString());
 		
+		
+		
 	}
 
 }
